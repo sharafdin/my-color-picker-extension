@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "My Color Picker",
+    "description": "Easily select any color of your choice. By Sharafdin",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "16": "./media/icons/icon16.png",
+        "32": "./media/icons/icon32.png",
+        "64": "./media/icons/icon64.png",
+        "128": "./media/icons/icon128.png"
+    }
+}

@@ -1,0 +1,111 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Popup styles */
+.popup {
+  width: 350px;
+  background: #fff;
+}
+
+/* Flex container for the color picker, header, and all-colors */
+.popup :where(.picker, header, .all-colors) {
+  display: flex;
+  align-items: center;
+}
+
+.popup .picker {
+  padding: 30px 0;
+  background: #004aa1;
+  justify-content: center;
+}
+
+/* Button styles */
+.picker #color-picker {
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #fff;
+  transition: 0.3s ease;
+}
+
+/* Button hover state */
+#color-picker:hover {
+  background: #01418a;
+}
+
+/* Picked colors container */
+.picked-colors {
+  margin: 10px 15px;
+}
+
+/* Header styles */
+.picked-colors header {
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+/* Clear all button styles */
+header .clear-all {
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #5372F0;
+  transition: color 0.3s ease;
+}
+
+/* Clear all button hover state */
+header .clear-all:hover {
+  color: #143feb;
+}
+
+/* Hide the picked colors container if it has no colors */
+.picked-colors.hide {
+  display: none;
+}
+
+/* List of all picked colors */
+.picked-colors .all-colors {
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 10px 0 15px;
+}
+
+/* Individual color item */
+.all-colors .color {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: calc(100% / 3);
+}
+
+/* Color box */
+.all-colors .rect {
+  height: 21px;
+  width: 21px;
+  display: block;
+  margin-right: 8px;
+  border-radius: 5px;
+}
+
+/* Color code */
+.all-colors .color span {
+  font-size: 0.96rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Open sans";
+}
