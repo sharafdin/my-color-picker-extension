@@ -1,24 +1,35 @@
+<!-- This is an HTML document -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- This specifies the character encoding of the document -->
     <meta charset="UTF-8">
+    <!-- This sets the viewport to the width of the device and scales the page appropriately -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This sets the title of the document -->
     <title>My Color Picker Extension</title>
+    <!-- This links to an external stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!-- This is the main container for the color picker extension -->
     <div class="popup">
+        <!-- This is the container for the color picker button -->
         <div class="picker">
             <button id="color-picker">Pick Color</button>
         </div>
+        <!-- This is the container for the list of picked colors -->
         <div class="picked-colors hide">
+            <!-- This is the header of the picked colors container -->
             <header>
                 <p class="title">Picked colors</p>
                 <span class="clear-all">Clear All</span>
             </header>
+            <!-- This is the list of all picked colors -->
             <ul class="all-colors"></ul>
         </div>
     </div>
+    <!-- This links to an external JavaScript file -->
     <script src="./js/app.js"></script>
 </body>
 </html>
