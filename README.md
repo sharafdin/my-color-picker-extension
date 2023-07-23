@@ -7,16 +7,18 @@ This extension helps you easily select any color of your choice and also stores 
 First, to use this extension, make sure you have downloaded and installed Google Chrome on your computer. After that, we will go through the rest step by step.
 
 - [X] Getting Started
-- [ ] How to install
-- [ ] How to use
+- [ ] How to Install
+- [ ] How to Use
 
-## How to install
+## How to Install
+
 Since the extension is currently unavailable on Google Chrome, we will need to wait until it becomes available again in order to determine the installation process.
-- [x] Getting Started
-- [ ] How to install
-- [ ] How to use
 
-## How to use:
+- [x] Getting Started
+- [ ] How to Install
+- [ ] How to Use
+
+## How to Use:
 
 ### Picking Color
 
@@ -39,8 +41,8 @@ Since the extension is currently unavailable on Google Chrome, we will need to w
 ![alt text](./media/GIF/saved-to-ls.gif)
 
 - [x] Getting Started
-- [ ] How to install
-- [x] How to use
+- [ ] How to Install
+- [x] How to Use
 
 ### Developers
 
